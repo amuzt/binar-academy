@@ -58,6 +58,17 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
 
 - go to https://github.com/new
 
+- and you'll see form below
+
+![CREATE REPOSITORY](https://user-images.githubusercontent.com/55352568/67690095-e3169d00-f9ce-11e9-80c6-742326d8e429.png)
+
+
+Please fullfill Repository name, Description to your repository And choose whether the repository on public or in private mode, please note that you need to pay for the private repository  and don't forget to **checklist** *Initialize this repository with a README*
+
+Then click **Create repository**
+
+And done , you are successfully create a repository
+
 
 
 
