@@ -13,7 +13,8 @@
 - lalu akan muncul halaman pilihan paket
 
 ![choose](https://user-images.githubusercontent.com/55352568/67687044-40f4b600-f9ca-11e9-8ed2-d4d42c474556.png)
-Dan pilih sesuai kebutuhan
+
+- Dan pilih sesuai kebutuhan
 
 Selamat , anda sudah punya akun GitHub
 
