@@ -54,6 +54,12 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
 >> $ ssh-add ~/.ssh/id_rsa
 3. Add the SSH key to your GitHub account. https://github.com/settings/keys
 
+# HOW TO CREATE REPOSITORY
+
+- go to https://github.com/new
+
+
+
 
 
 
