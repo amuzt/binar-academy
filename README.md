@@ -52,7 +52,7 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
 2. Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_rsa in the command with the name of your private key file.
 
 >> $ ssh-add ~/.ssh/id_rsa
-3. Add the SSH key to your GitHub account.
+3. Add the SSH key to your GitHub account. https://github.com/settings/keys
 
 
 
