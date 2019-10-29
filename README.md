@@ -82,7 +82,9 @@ If you get this error message: **fatal: Not a git repository (or any of the pare
 
 If you get another error message, read carefully what it says. Is it saying *git isn't installed on your computer* by saying that the word *'git' is not recognized?* OR *Is it saying that you're already in a folder or sub-folder where git is initialized?* **Google your error and/or output to understand it, and to figure out how to fix it.**
 
-  Do you need a refresher on git? Go through Codecademy's git course.
+  Do you need a refresher on git? 
+  
+  Go through https://www.codecademy.com/learn/learn-git , https://getmimo.com/learn/git
 
 ## Create a remote, empty folder/repository on Github.
 1. Login to your Github account.
