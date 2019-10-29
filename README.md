@@ -72,10 +72,10 @@ And done , you are successfully create a repository
 # HOW TO PUSH TO REMOTE REPOSITORY 
 
 ## Make sure git is tracking your project.
-1. Using your terminal/command line, get inside the folder where your project files are kept: cd /path/to/my/codebase.
+1. Using your terminal/command line, get inside the folder where your project files are kept: >> cd /path/to/my/codebase.
 You cannot do this simply by opening the folder normally, you must do this with the command line/terminal.
 
->> Do you need a refresher on using your command line/terminal? I've compiled my favorite resources here.
+Do you need a refresher on using your command line/terminal? I've compiled my favorite resources here.
 
 2. Check if git is already initialized: git status
 If you get this error message: fatal: Not a git repository (or any of the parent directories): .git, that means the folder you are currently in is not being tracked by git. In that case, initialize git inside your project folder by typing git init, then going through the process of adding and committing your project.
