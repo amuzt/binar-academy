@@ -3,9 +3,10 @@ git clone ( url ssh/https)  : mengcloning remote repository
 git add .                   : 
 git status                  : untuk melihat stastus perubahan
 git commit -m (message)     : menambah pesan / keterangan
-git push                    : mengupdate remote respositody
+git push                    : mengupdate remote respository
 cat ~/.ssh/id_rsa.pub       : untuk menampilkan kunci ssh
 cd ~/.ssh                   : untuk masuk ke directory ssh
+
 
 
 Task

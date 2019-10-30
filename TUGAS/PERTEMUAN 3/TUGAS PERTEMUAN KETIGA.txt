@@ -1,0 +1,10 @@
+Tugas
+1. Buat tugas dengan nama form.html
+2. Buat konten dengan tag image, ul, a , footer, table
+3. Buat sebuah form dengan menggunakan jenis input
+    1. text area
+    2. checkbox
+    3. text
+    4. number
+    5. select
+4. push to github
