@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
-
+<title>
+    Vhiweb
+</title>
+<link rel="shortcut icon" href="favicon.ico" />
 <head>
     <header>
-        <a href="https://google.co.id">
-            <img style src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_phi.png">
-        </a>
-        VhiWeb Academy
+        <a href="https://vhiweb.com">
+            <img id="logo" style src="https://cdn.techinasia.com/data/images/5861d16a6823f249ba4baf6b19d83b67.png"> </a>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+        
+
+        <br>
     </header>
 </head>
 
 <body>
+    <hr>
+    <br>
     <h1>Why Choose Us ?</h1>
     <ul>
         <li>Experienced in education</li>
@@ -19,12 +27,13 @@
     </ul>
 
     <hr>
-    <table style="border: 1px solid rgb(161, 41, 41)">
+    <h1>Intuition Fee</h1>
+    <table>
         <tr>
-            <th style="border: 1px solid black">Class</th>
-            <th style="border: 1px solid black">Price</th>
+            <th>Class</th>
+            <th>Price</th>
         </tr>
-        <tr style="border: 1px solid black">
+        <tr>
             <td>Backend Developer</td>
             <td>10.000.000 IDR</td>
 
@@ -41,29 +50,32 @@
     </table>
     <hr>
     <h1>Registration Form</h1>
+    <div>
     <form action="#" method="GET">
-        <label>Full Name</label>
-        <input type="text">
+        <label class="label">Full Name</label>
+        <input class="label" type="text">
         <br>
-        <label>Sex</label>
-        <br>
-        <input type="checkbox"> Women <br>
-        <input type="checkbox"> Men <br>
-        <label> Address</label>
-        <input type="text area"> <br>
-        <label> Phone Number</label>
+        <label class="label">Sex</label>
 
-        <input type="number" required min-length="9" max-length="15">
+        <input class="label" type="checkbox"> Women
+        <input class="label" type="checkbox"> Men <br>
+        <label class="label"> Address</label>
+        <input class="address" type="text area"> <br>
+        <label class="label"> Phone Number</label>
+
+        <input class="label" type="number" required min-length="9" max-length="15">
         <br>
-        <label>Pick Your Class </label>
-        <select>
-            <option value=" "></option>
-            <option value="01">Backend Developer</option>
-            <option value="02">FrontEnd Developer</option>
-            <option value="03">UI/ UX</option>
+        <label class="label">Pick Your Class </label>
+        <select class="label"> 
+            <option class="label" value=" "></option>
+            <option class="label" value="01">Backend Developer</option>
+            <option class="label" value="02">FrontEnd Developer</option>
+            <option class="label" value="03">UI / UX</option>
         </select>
         <br><br>
-        <input class=label type="submit" value="SUBMIT">
+        <input class="button" type="submit" value="SUBMIT">
+    </div>
+        <br>
 </body>
 <footer>
     <br>

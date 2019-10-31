@@ -1,0 +1,107 @@
+#logo {
+    height: 90px;
+    float: left;
+}
+
+header {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 60px;
+    text-align: right;
+    padding;
+    : 10px;
+    background: transparent
+}
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    background: #ffe6cc;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ul {
+    font-size: 30px;
+    list-style-type: square;
+}
+
+
+
+table {
+
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th,
+td {
+    border: 1px solid black;
+    font-size: 30px;
+
+}
+
+
+tr {
+    border: 1px solid rgb(161, 41, 41)"
+
+}
+
+div {
+    border: 1px solid black;
+    margin: 20px;
+    border-style: dotted;
+    padding: 20px;
+    text-align: left;
+
+}
+
+form {
+    
+    font-size: 30px;
+}
+
+input {
+    width: 250px;
+}
+
+.label {
+    height: 30px;
+    margin: 20px;
+    border-radius: 25px;
+
+}
+
+.checkbox {
+    height: ;
+    margin: ;
+
+}
+
+.address {
+    width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    vertical-align: text-top;
+
+}
+
+.button {
+
+    height: 40px;
+    width: 100px;
+    font-display: 'Be Vietnam', sans-serif;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    background-color: #ffb566;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+
+}
