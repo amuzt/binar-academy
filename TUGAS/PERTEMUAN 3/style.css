@@ -1,15 +1,13 @@
 #logo {
     height: 90px;
-    float: left;
+    float: right;
 }
 
 header {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 60px;
     text-align: right;
-    padding;
-    : 10px;
-    background: transparent
+    padding: 10px;
 }
 
 body {
@@ -19,6 +17,7 @@ body {
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 ul {
@@ -37,46 +36,98 @@ table {
 
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #b34700;
     font-size: 30px;
+    background-color: #ffa366;
 
 }
 
-
-tr {
-    border: 1px solid rgb(161, 41, 41)"
-
-}
 
 div {
-    border: 1px solid black;
+    border: 1px solid #b34700;
     margin: 20px;
     border-style: dotted;
     padding: 20px;
-    text-align: left;
+    text-align:;
+    background-color: #ffa366;
+    font-size: 30px;
+    border-radius: 25px;
+
 
 }
 
 form {
-    
+
     font-size: 30px;
+    border-radius: 25px;
 }
 
 input {
     width: 250px;
+    border-radius: 25px;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    -webkit-appearance: textfield;
+    background-color: rgb(243, 235, 235);
+    cursor: text;
+    margin: 0em;
+    font: 400 25px 'Be Vietnam' ;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+
 }
+
+textarea { 
+    align-items: top;
+}​
 
 .label {
     height: 30px;
-    margin: 20px;
+    margin-right: 10px;
     border-radius: 25px;
 
 }
 
 .checkbox {
-    height: ;
-    margin: ;
+    height: 30px;
+    width: 100px;
 
+
+
+}
+.pilih {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: black;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: white;
+    cursor: default;
+    margin: 0em;
+    font: 45 30px 'Be Vietnam';
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-image: initial;
 }
 
 .address {
@@ -89,7 +140,7 @@ input {
 
 .button {
 
-    height: 40px;
+    height: 80px;
     width: 100px;
     font-display: 'Be Vietnam', sans-serif;
     border-radius: 10px;
