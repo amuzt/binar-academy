@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEADER -->
+<%- include('../partials/header') %>
+<!-- navigation -->
+<%- include('../partials/navigations') %>
+
+<body>
+    
+    <br>
+    <h1>Detail Article</h1>
+    <hr>
+    <ol>
+        <% article.forEach(function(item) { %>
+        <li>Title: <%= item.Title %><br>
+            Author: <%= item.Author %><br>
+            Category: <%= item.Category %><br>
+            Posting Date: <%= item.PostingDate%><br>
+            Deskripsi: <%= item.Deskripsi %><br>
+            <hr>
+        </li>
+        <% }) %>
+    </ol>
+</body>
+<!-- FOOTER -->
+<%- include('../partials/footer') %>
+
+</html>

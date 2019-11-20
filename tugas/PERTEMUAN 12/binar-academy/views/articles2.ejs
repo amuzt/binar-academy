@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEADER -->
+<%- include('partials/header') %>
+<!-- navigation -->
+<%- include('partials/navigations') %>
+
+<body>
+    <br>
+    <br>
+    <h1>ALL ARTICLES</h1>
+    <form action="#" method="GET">
+        <section class="name">
+            <label class=label for="name">Title</label>
+            <input type="text" name="First Name" id="First Name">
+            <br>
+            <hr>
+            <label class=label for="name">Author12</label>
+            <input type="text" name="Author" id="Author">
+            <br>
+            <hr>
+            <label class="label" for="month">Articles</label>
+            <select name="month" id="month">
+                <option value=" "></option>
+                <option value="01">Art</option>
+                <option value="02">Programming</option>
+                <option value="03">Culiner</option>
+            </select>
+            <hr>
+            <label class="label" for="month"> Posting date</label><input type="date" name="tourdate">
+            <hr>
+
+            <hr>
+            <section class="email">
+                <input class=label type="submit" value="SUBMIT">
+            </section>
+    </form>
+
+</body>
+<!-- FOOTER -->
+<%- include('partials/footer') %>
+
+</html>

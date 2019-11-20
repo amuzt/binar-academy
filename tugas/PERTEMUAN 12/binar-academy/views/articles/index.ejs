@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEADER -->
+<%- include('../partials/header') %>
+<!-- navigation -->
+<%- include('../partials/navigations') %>
+
+<body>
+    <br>
+    <br>
+    <h1>List Articles</h1>
+    <h2><a href="articles/form">CREATE ARTICLE</a></h2>
+    <br><br>
+    <ol>
+        <% articles.forEach(function(item) { %>
+        <li>
+            Title: <%= item.Title %><br>
+            Author: <%= item.Author %><br>
+            Category: <%= item.Category %><br>
+            <a href='/articles/detail/<%= item._id %>'>Show</a>
+            &nbsp;&nbsp;
+            <a href="/articles/update/<%= item._id %>">Edit</a>
+            &nbsp;&nbsp;
+            <a href="/articles/delete/<%= item._id %>">Delete</a>
+            <hr>
+        </li>
+        <% }) %>
+    </ol>
+
+</body>
+<!-- FOOTER -->
+<%- include('../partials/footer') %>
+
+</html>

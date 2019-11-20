@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEADER -->
+<%- include('../partials/header') %>
+<!-- navigation -->
+<%- include('../partials/navigations') %>
+
+<body>
+    <br>
+    <br>
+    <h1>ALL ARTICLES</h1>
+    <form action="/articles/create_article" method="POST">
+        <section>
+            <label>Title</label>
+            <input type="text" name="Title" id="Title">
+            <br>
+            <hr>
+            <label>Author</label>
+            <input type="text" name="Author">
+            <br>
+            <hr>
+            <label>Category</label>
+            <select name="Category">
+                <option value=" "></option>
+                <option value="Art">Art</option>
+                <option value="Programming">Programming</option>
+                <option value="Culiner">Culiner</option>
+            </select>
+            <hr>
+            <label>Posting date</label>
+            <input type="date" name="PostingDate">
+            <hr>
+            <label>Deskripsi</label>
+            <textarea name="Deskripsi" id="deskripsi" cols="30" rows="10"></textarea>
+            <hr>
+            <input type="submit" value="SUBMIT">
+        </section>
+    </form>
+
+</body>
+<!-- FOOTER -->
+<%- include('../partials/footer') %>
+
+</html>
